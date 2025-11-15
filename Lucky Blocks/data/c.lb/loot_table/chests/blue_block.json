@@ -1,0 +1,151 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_rabbit",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_pickaxe",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:unbreaking",
+                "minecraft:mending",
+                "minecraft:efficiency",
+                "minecraft:silk_touch",
+                "minecraft:fortune"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:smite",
+                "minecraft:bane_of_arthropods",
+                "minecraft:mending",
+                "minecraft:fire_aspect",
+                "minecraft:sharpness",
+                "minecraft:unbreaking"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_helmet",
+          "weight": 110,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:unbreaking",
+                "minecraft:protection",
+                "minecraft:blast_protection",
+                "minecraft:projectile_protection",
+                "minecraft:fire_protection",
+                "minecraft:thorns",
+                "minecraft:mending"
+              ],
+              "only_compatible": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_boots",
+          "weight": 110,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:unbreaking",
+                "minecraft:protection",
+                "minecraft:blast_protection",
+                "minecraft:projectile_protection",
+                "minecraft:fire_protection",
+                "minecraft:thorns",
+                "minecraft:mending"
+              ],
+              "only_compatible": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_leggings",
+          "weight": 110,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:unbreaking",
+                "minecraft:protection",
+                "minecraft:blast_protection",
+                "minecraft:projectile_protection",
+                "minecraft:fire_protection",
+                "minecraft:thorns",
+                "minecraft:mending"
+              ],
+              "only_compatible": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_chestplate",
+          "weight": 80,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:unbreaking",
+                "minecraft:protection",
+                "minecraft:blast_protection",
+                "minecraft:projectile_protection",
+                "minecraft:fire_protection",
+                "minecraft:thorns",
+                "minecraft:mending"
+              ],
+              "only_compatible": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_block",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 20
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

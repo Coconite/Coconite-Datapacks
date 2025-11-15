@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "recipes": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dirt",
+              "minecraft:gold_ingot",
+              "minecraft:iron_ingot",
+              "minecraft:diamond",
+              "minecraft:emerald",
+              "minecraft:ancient_debris",
+              "minecraft:netherite_scrap",
+              "minecraft:lapis_lazuli"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "c.lb:yellow_block",
+      "c.lb:white_block",
+      "c.lb:red_block",
+      "c.lb:dark_blue_block",
+      "c.lb:green_block",
+      "c.lb:blue_block",
+      "c.lb:netherite_block"
+    ]
+  }
+}

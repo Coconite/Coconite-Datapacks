@@ -1,0 +1,51 @@
+[
+  {
+    "function": "minecraft:set_custom_model_data",
+    "flags": {
+      "values": [
+        false,
+        false
+      ],
+      "mode": "replace_section",
+      "offset": 0,
+      "size": 2
+    }
+  },
+  {
+    "function": "minecraft:set_custom_model_data",
+    "flags": {
+      "values": [
+        true
+      ],
+      "mode": "replace_section",
+      "offset": 0
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:reference",
+        "name": "thallium:entity_properties/hurt/true"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_model_data",
+    "flags": {
+      "values": [
+        true
+      ],
+      "mode": "replace_section",
+      "offset": 1
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:all_of",
+        "terms": [
+          {
+            "condition": "minecraft:reference",
+            "name": "thallium:entity_properties/walking"
+          }
+        ]
+      }
+    ]
+  }
+]

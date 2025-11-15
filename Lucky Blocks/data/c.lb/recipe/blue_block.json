@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "c": "diamond",
+    "m": "dirt"
+  },
+  "pattern": [
+    " m ",
+    "mcm",
+    " m "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:furnace",
+                  "components": {
+                "max_stack_size":64,
+                "minecraft:custom_data":{
+                    "c":{
+                        "lucky_blocks":{"id":"blue_block"}
+                    }
+                },
+                "!minecraft:jukebox_playable": {},
+                "minecraft:item_model": "c.lb:block/blue_block",
+                "minecraft:item_name": {
+                  "translate": "item.c.lb.blue_block"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "0 %s",
+                    "with": [
+                      {
+                        "translate": "ui.c.lb.title",
+                        "color": "white",
+                        "font": "c.lb:tooltip",
+                        "italic": false
+                      }
+                    ],
+                    "color": "white",
+                    "font": "c.lb:icon",
+                    "italic": false
+                  }
+                ],
+                "minecraft:rarity": "uncommon",
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:diamond",
+                      "components": {
+                        "minecraft:custom_data": {
+                          "thallium": {
+                            "block": {
+                              "id": "blue_block"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+  }
+}

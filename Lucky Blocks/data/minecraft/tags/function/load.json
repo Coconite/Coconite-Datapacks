@@ -1,0 +1,9 @@
+{
+	"values": [
+		"c.lb:technical/load",
+		"thallium:technical/load",
+		"thallium:technical/second_clock",
+		"thallium:technical/ten_second_clock",
+		"globalid:load"
+	]
+}

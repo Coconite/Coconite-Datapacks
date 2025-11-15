@@ -1,0 +1,67 @@
+{
+	"providers": [
+		{
+			"type": "bitmap",
+			"file": "c.lb:block/yellow_block.png",
+			"ascent": 12,
+			"height": 16,
+			"chars": [
+				"0"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "c.lb:block/white_block.png",
+			"ascent": 12,
+			"height": 16,
+			"chars": [
+				"1"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "c.lb:block/red_block.png",
+			"ascent": 12,
+			"height": 16,
+			"chars": [
+				"2"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "c.lb:block/dark_blue_block.png",
+			"ascent": 12,
+			"height": 16,
+			"chars": [
+				"3"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "c.lb:block/blue_block.png",
+			"ascent": 12,
+			"height": 16,
+			"chars": [
+				"4"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "c.lb:block/netherite_block.png",
+			"ascent": 12,
+			"height": 16,
+			"chars": [
+				"5"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "c.lb:block/green_block.png",
+			"ascent": 12,
+			"height": 16,
+			"chars": [
+				"6"
+			]
+		}
+	]
+}

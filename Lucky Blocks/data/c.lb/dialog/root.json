@@ -1,0 +1,155 @@
+{
+  "type": "minecraft:multi_action",
+  "title": [
+    {
+      "text": "0 ",
+      "font": "c.lb:icon"
+    },
+    {
+      "translate": "ui.c.lb.gives",
+      "font": "c.lb:tooltip"
+    }
+  ],
+  "external_title": [
+    {
+      "text": "0 ",
+      "font": "c.lb:icon"
+    },
+    {
+      "translate": "ui.c.lb.title",
+      "font": "c.lb:tooltip"
+    }
+  ],
+  "body": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "actions": [
+    {
+      "label": {
+        "text": "0",
+        "color": "white",
+        "shadow_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "font": "c.lb:give_menu"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot c.lb:items/stack/yellow_block"
+      }
+    },
+    {
+      "label": {
+        "text": "1",
+        "color": "white",
+        "shadow_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "font": "c.lb:give_menu"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot c.lb:items/stack/white_block"
+      }
+    },
+    {
+      "label": {
+        "text": "2",
+        "color": "white",
+        "shadow_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "font": "c.lb:give_menu"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot c.lb:items/stack/red_block"
+      }
+    },
+    {
+      "label": {
+        "text": "3",
+        "color": "white",
+        "shadow_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "font": "c.lb:give_menu"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot c.lb:items/stack/dark_blue_block"
+      }
+    },
+    {
+      "label": {
+        "text": "4",
+        "color": "white",
+        "shadow_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "font": "c.lb:give_menu"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot c.lb:items/stack/blue_block"
+      }
+    },
+    {
+      "label": {
+        "text": "5",
+        "color": "white",
+        "shadow_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "font": "c.lb:give_menu"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot c.lb:items/stack/netherite_block"
+      }
+    },
+    {
+      "label": {
+        "text": "6",
+        "color": "white",
+        "shadow_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "font": "c.lb:give_menu"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot c.lb:items/stack/green_block"
+      }
+    }
+  ]
+}

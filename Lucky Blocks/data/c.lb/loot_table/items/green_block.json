@@ -1,0 +1,66 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:furnace",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "max_stack_size":64,
+                "minecraft:custom_data":{
+                    "c":{
+                        "lucky_blocks":{"id":"green_block"}
+                    }
+                },
+
+                "!minecraft:jukebox_playable": {},
+                "minecraft:item_model": "c.lb:block/green_block",
+                "minecraft:item_name": {
+                  "translate": "item.c.lb.green_block"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "0 %s",
+                    "with": [
+                      {
+                        "translate": "ui.c.lb.title",
+                        "color": "white",
+                        "font": "c.lb:tooltip",
+                        "italic": false
+                      }
+                    ],
+                    "color": "white",
+                    "font": "c.lb:icon",
+                    "italic": false
+                  }
+                ],
+                "minecraft:rarity": "uncommon",
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:diamond",
+                      "components": {
+                        "minecraft:custom_data": {
+                          "thallium": {
+                            "block": {
+                              "id": "green_block"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

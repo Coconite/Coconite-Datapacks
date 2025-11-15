@@ -1,0 +1,9 @@
+{
+  "condition": "minecraft:entity_scores",
+  "entity": "this",
+  "scores": {
+    "thallium.hurt_time": {
+      "min": 1
+    }
+  }
+}

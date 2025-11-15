@@ -1,0 +1,11 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {"type":"minecraft:loot_table","value": "thallium:items/thallium_ingot","functions":[{"function":"minecraft:set_count","count":{"type":"minecraft:score","target":"this","score":"thallium.dummy"}}],"conditions":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"slots":{"contents":
+        {"predicates": {"minecraft:custom_data": {"thallium":{"id": "thallium_ingot"}}}}}}}]}
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

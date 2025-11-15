@@ -1,0 +1,77 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:totem_of_undying"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "golden_apple",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 16,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:sequence",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:golden_boots"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:golden_leggings"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:golden_chestplate"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:golden_helmet"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "golden_axe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "golden_shovel"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "golden_sword"
+        }
+      ]
+    }
+  ]
+}

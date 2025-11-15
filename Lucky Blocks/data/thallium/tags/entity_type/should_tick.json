@@ -1,0 +1,13 @@
+{
+  "values": [
+    "#thallium:attacks_wandering_traders",
+    "minecraft:wandering_trader",
+    "minecraft:item_display",
+    "minecraft:marker",
+    "minecraft:interaction",
+    "minecraft:skeleton_horse",
+    "minecraft:villager",
+    "minecraft:tnt",
+    "minecraft:mannequin"
+  ]
+}

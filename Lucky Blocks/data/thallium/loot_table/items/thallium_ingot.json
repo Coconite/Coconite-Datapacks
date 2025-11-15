@@ -1,0 +1,40 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:item_name": {"translate":"item.thallium.thallium_ingot"},
+                  "minecraft:lore": [
+                    [{"text":"0 ","font":"thallium:icon","italic":false,"color":"white"},{"translate":"ui.thallium.title","font":"thallium:tooltip"}],
+                    {"text":""},
+                    {"translate":"item.thallium.thallium_ingot.description","italic":false,"color":"gray","font":"thallium:5","with":[[{"text":"0 ","font":"thallium:icon","italic":false,"color":"white"},{"translate":"ui.thallium.title","font":"thallium:tooltip"}]]}
+                  ],
+                  "minecraft:tooltip_style": "thallium:thallium",
+                  "minecraft:item_model": "thallium:thallium_ingot",
+                  "minecraft:custom_data": {
+                    "thallium": {
+                      "id": "thallium_ingot"
+                    },
+                    "smithed": {
+                      "ignore": {
+                        "functionality": 1,
+                        "crafting": 1
+                      }
+                    }
+                  },
+                  "!minecraft:consumable": {}
+                }
+              }
+            ]
+        }
+      ]
+    }
+  ]
+}

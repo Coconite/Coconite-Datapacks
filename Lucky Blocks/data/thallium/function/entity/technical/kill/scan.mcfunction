@@ -1,0 +1,1 @@
+execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{thallium:{death:{}}}}}}] at @s run function thallium:entity/technical/kill/as_item

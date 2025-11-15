@@ -1,0 +1,1 @@
+tag @s remove thallium.entity.hurt

@@ -1,0 +1,14 @@
+{
+	"ui.c.lb.title": "Lucky Blocks",
+	"ui.c.lb.menu": "Lucky Blocks Operator Menu",
+	"ui.c.lb.gives": "Lucky Blocks Give",
+	"ui.c.lb.gives.hover": "Obtain Lucky Block",
+
+	"item.c.lb.yellow_block": "Lucky Block",
+	"item.c.lb.white_block": "Iron Lucky Block",
+	"item.c.lb.red_block": "Redstone Lucky Block",
+	"item.c.lb.dark_blue_block": "Lapis Lucky Block",
+	"item.c.lb.blue_block": "Diamond Lucky Block",
+	"item.c.lb.netherite_block": "Netherite Lucky Block",
+	"item.c.lb.green_block": "Emerald Lucky Block"
+}

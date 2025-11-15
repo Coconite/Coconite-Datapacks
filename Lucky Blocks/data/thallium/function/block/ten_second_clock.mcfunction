@@ -1,0 +1,1 @@
+function #thallium:block/ten_second_clock

@@ -1,0 +1,3 @@
+$execute if entity @s[gamemode=!creative] store success score #thallium.key_check thallium.dummy run clear @s *[minecraft:custom_data~{thallium:{key_id:"$(key_id)"}}] 1
+$execute if entity @s[gamemode=creative] store success score #thallium.key_check thallium.dummy if items entity @s container.* *[minecraft:custom_data~{thallium:{key_id:"$(key_id)"}}]
+$execute if score #thallium.key_check thallium.dummy matches 0 run playsound $(locked_sound) player @a[distance=..8] ~ ~ ~ 0.5

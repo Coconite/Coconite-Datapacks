@@ -1,0 +1,7 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "thallium:gui/blocked_slot"
+  },
+  "oversized_in_gui": true
+}
