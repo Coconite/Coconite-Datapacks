@@ -1,15 +1,15 @@
 {
   "pack": {
-    "pack_format": 69,
+    "pack_format": 88,
     "description": [
       {
         "text": "⛏ Cool VeinMiner ⛏",
-        "color": "#34df5f"
+        "color": "#89CDE8"
       },
       "\n",
       {
-        "text": "By Dewonic",
-        "color": "#12ba82"
+        "text": "By Dewonic & Coconite",
+        "color": "#6598D6"
       }
     ],
     "min_format": 88,
