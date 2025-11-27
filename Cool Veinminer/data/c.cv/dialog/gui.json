@@ -1,0 +1,55 @@
+{
+    "type": "minecraft:confirmation",
+    "pause": false,
+    "can_close_with_escape": true,
+    "after_action":"close",
+    "body": {
+        "type": "minecraft:plain_message",
+        "contents": [
+        {
+            "text": "Do you want to get a Configurer?",
+            "color": "white"
+        }
+    ]
+  },
+    "title": 
+        {
+        "translate": "0 %s",
+        "with": [
+            {
+            "translate": "u",
+            "color": "white",
+            "font": "c.cv:tooltip",
+            "italic": false
+            }
+        ],
+        "color": "white",
+        "font": "c.cv:icon",
+        "italic": false
+        },
+    "external_title": 
+        {
+        "translate": "0 %s",
+        "with": [
+            {
+            "translate": "u",
+            "color": "white",
+            "font": "c.cv:tooltip",
+            "italic": false
+            }
+        ],
+        "color": "white",
+        "font": "c.cv:icon",
+        "italic": false
+        },
+        "yes": {
+            "label": "Yes",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger c.cv.configurer.trigger"
+            }
+        },
+        "no": {
+            "label": "No"
+        }
+}

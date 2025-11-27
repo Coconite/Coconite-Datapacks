@@ -1,0 +1,53 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "minecraft:item/green_stained_glass_pane"
+    },
+    "cases": [
+      {
+        "when":
+          "c:{cv:{id:\"button_top\"}}",
+        "model": {
+          "type": "model",
+          "model": "c.cv:gui/big_green_button_top"
+        }
+      },
+      {
+        "when": 
+          "c:{cv:{id:\"button_middle\"}}",
+        "model": {
+          "type": "model",
+          "model": "c.cv:gui/big_green_button_middle"
+        }
+      },
+      {
+        "when":
+          "c:{cv:{id:\"button_bottom\"}}",
+        "model": {
+          "type": "model",
+          "model": "c.cv:gui/big_green_button_bottom"
+        }
+      },
+      {
+        "when":
+          "c:{cv:{id:\"shift\"}}",
+        "model": {
+          "type": "model",
+          "model": "c.cv:gui/button_shift"
+        }
+      },
+      {
+        "when":
+          "c:{cv:{id:\"op\"}}",
+        "model": {
+          "type": "model",
+          "model": "c.cv:gui/button_op"
+        }
+      }
+    ]
+  },
+  "oversized_in_gui": true
+}

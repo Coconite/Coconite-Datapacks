@@ -1,0 +1,1 @@
+$execute if items entity @s container.$(slot) *[!custom_data~{c:{cv:{config:1b}}}] run function c.cv:gui/configurer/utils/pages_internal/items/proceed_to_array with storage c:cv root.temp.item_handler

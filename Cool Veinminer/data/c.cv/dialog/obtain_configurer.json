@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:confirmation",
+  "title": {
+    "text": "OP"
+  },
+  "external_title": {
+    "text": "OP"
+  },
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": [
+      {
+        "text": "\n\n\nYou're trying to obtain a ",
+        "color": "white"
+      },
+      {
+        "text": "Configurer.\n",
+        "color": "yellow"
+      },
+      {
+        "text": "OP ",
+        "color": "green"
+      },
+      {
+        "text": "is needed to proceed.\n\n Want to try?",
+        "color": "white"
+      }
+  ]
+  },
+  "can_close_with_escape": false,
+  "pause": false,
+  "after_action": "close",
+  "yes": {
+    "label": "Yes",
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "/function c.cv:item/configurer/give/loot"
+    }
+  },
+  "no": {
+    "label": "No"
+  }
+}

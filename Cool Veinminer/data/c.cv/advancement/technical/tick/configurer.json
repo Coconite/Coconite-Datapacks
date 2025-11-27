@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "handheld": {
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "predicates": {
+                                "custom_data": {
+                                    "c":{"cool_veinminer":{"id":"configurer"}}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "c.cv:item/configurer/tick_handheld"
+    }
+}

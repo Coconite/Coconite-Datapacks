@@ -1,0 +1,13 @@
+{
+  "sources": [
+    {
+      "type": "single",
+      "resource": "entity/chest/normal"
+    },
+    {
+      "type": "minecraft:directory",
+      "source": "gui",
+      "prefix": "gui/"
+    }
+  ]
+}

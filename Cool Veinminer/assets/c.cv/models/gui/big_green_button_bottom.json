@@ -1,0 +1,7 @@
+{
+	"parent": "c.cv:gui/big_green_button",
+	"textures": {
+		"0": "c.cv:gui/sprites/gui/big_green_button_bottom",
+		"particle": "c.cv:gui/sprites/gui/big_green_button_bottom"
+	}
+}

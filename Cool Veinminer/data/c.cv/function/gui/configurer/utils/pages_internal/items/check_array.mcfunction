@@ -1,0 +1,2 @@
+$execute if data storage c:cv root.config.items[$(item)] run return run playsound minecraft:entity.villager.no master @a
+function c.cv:gui/configurer/utils/pages_internal/items/add_item_to_array with storage c:cv root.temp.item_handler

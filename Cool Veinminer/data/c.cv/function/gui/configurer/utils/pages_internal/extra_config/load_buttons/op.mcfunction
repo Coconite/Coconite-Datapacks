@@ -1,0 +1,2 @@
+execute if data storage c:cv root.config{op_needed:1b} run return run loot replace entity @s container.15 loot c.cv:items/technical/gui/buttons/op/on
+loot replace entity @s container.15 loot c.cv:items/technical/gui/buttons/op/off

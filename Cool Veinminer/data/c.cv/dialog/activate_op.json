@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:confirmation",
+  "title": {
+    "text": "OP"
+  },
+  "external_title": {
+    "text": "OP"
+  },
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": {
+      "text": "\n\n\nYou're trying to activate \"Need OP to configure\".\n\n Are you sure?"
+    }
+  },
+  "can_close_with_escape": false,
+  "pause": false,
+  "after_action": "close",
+  "yes": {
+    "label": "Yes",
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "/function c.cv:gui/configurer/utils/pages_internal/extra_config/activate_op"
+    }
+  },
+  "no": {
+    "label": "No"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:lime_stained_glass_pane",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "c:{cv:{id:\"shift\"}}"
+                  ]
+                },
+                "minecraft:item_name": [{"text":"Shift Needed : "},{"text":"ON","color":"green"}],
+                "custom_data": "{c:{cv:{\"hard_config\":1b,\"config\":1b,\"button\":\"shift\"}}}"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+    "criteria": {
+        "handheld": {
+            "trigger": "tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"c.cv.entity.player.open_ui\"]}"
+                        }
+                    },
+                    {
+                        "condition": "inverted",
+                        "term": {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                    "equipment": {
+                                        "mainhand": {
+                                            "predicates": {
+                                                "custom_data": {
+                                                    "c":{"cool_veinminer":{"id":"configurer"}}
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "c.cv:item/configurer/gui/close"
+    }
+}

@@ -1,0 +1,2 @@
+execute if data storage c:cv root.config{sneak_needed:1b} run return run loot replace entity @s container.11 loot c.cv:items/technical/gui/buttons/shift/on
+loot replace entity @s container.11 loot c.cv:items/technical/gui/buttons/shift/off
