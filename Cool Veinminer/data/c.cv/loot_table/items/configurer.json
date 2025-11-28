@@ -1,60 +1,48 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "item",
-          "name": "minecraft:player_head",
-          "functions": [
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": {
-                  "strings": [
-                    "c:{cv:{id:\"configurer\"}}"
-                  ]
-                },
-                "item_name": {
-                  "translate": "Configurer"
-                },
-                "minecraft:lore": [
-                  {
-                    "translate": "0 %s",
-                    "with": [
-                      {
-                        "translate": "u",
-                        "color": "white",
-                        "font": "c.cv:tooltip",
-                        "italic": false
-                      }
-                    ],
-                    "color": "white",
-                    "font": "c.cv:icon",
-                    "italic": false
-                  }
-                ],
-                "custom_data": {
-                  "c": {
-                    "cool_veinminer": {
-                      "id": "configurer"
-                    }
-                  }
-                },
-                "!minecraft:equippable": {},
-                "minecraft:profile": {
-                  "properties": [
-                    {
-                      "name": "textures",
-                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVjMDM1OGZiNjRlYWFjNmRiNjlhODU3Zjg5ODdiNTE5N2ZjZWE3MjYwOWMwNjBhODYyOGRhOTIyNjZmZDU5MiJ9fX0="
-                    }
-                  ]
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:music_disc_13",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "!minecraft:jukebox_playable": {},
+                                "minecraft:item_model": "c.cv:item/configurer",
+                                "item_name": {
+                                    "translate": "Configurer"
+                                },
+                                "minecraft:lore": [
+                                    {
+                                        "translate": "0 %s",
+                                        "with": [
+                                            {
+                                                "translate": "u",
+                                                "color": "white",
+                                                "font": "c.cv:tooltip",
+                                                "italic": false
+                                            }
+                                        ],
+                                        "color": "white",
+                                        "font": "c.cv:icon",
+                                        "italic": false
+                                    }
+                                ],
+                                "custom_data": {
+                                    "c": {
+                                        "cool_veinminer": {
+                                            "id": "configurer"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
                 }
-              }
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

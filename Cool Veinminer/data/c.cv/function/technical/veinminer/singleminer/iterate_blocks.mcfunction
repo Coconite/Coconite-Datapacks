@@ -5,7 +5,8 @@ $data modify storage c:cv root.temp.block_item set from storage c:cv root.config
 function c.cv:technical/veinminer/singleminer/handle_bundles
 
 # Iterate
-execute if score #veinminer.blockss.iteration c.cv.dummy >= #veinminer.blockss.max_iterations c.cv.dummy run return fail
+execute if score #veinminer.mined_blocks c.cv.dummy matches 1.. run return run function c.cv:technical/veinminer/singleminer/no_ore_found
+execute if score #veinminer.blockss.iteration c.cv.dummy >= #veinminer.blockss.max_iterations c.cv.dummy run return run function c.cv:technical/veinminer/singleminer/no_ore_found
 scoreboard players add #veinminer.blockss.iteration c.cv.dummy 1
 execute store result storage c:cv root.temp.iteration_blocks int 1 run scoreboard players get #veinminer.blockss.iteration c.cv.dummy
 

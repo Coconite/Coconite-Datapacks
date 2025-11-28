@@ -10,6 +10,7 @@ $function c.cv:technical/veinminer/multiminer/iteration/continue_iteration with 
 # ITERATE THIS ITERATION
 
 ## If this iteration is bigger than the limit, break
+
 $execute if score #veinminer.iteration.iterations.$(id) c.cv.dummy >= #veinminer.iteration.max_iterations.$(id) c.cv.dummy run return fail
 ## Add 1 to the iteration value
 $scoreboard players add #veinminer.iteration.iterations.$(id) c.cv.dummy 1

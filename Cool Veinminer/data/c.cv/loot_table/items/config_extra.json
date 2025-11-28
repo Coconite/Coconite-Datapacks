@@ -1,42 +1,38 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "item",
-          "name": "minecraft:player_head",
-          "functions": [
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:rarity":"common",
-                "minecraft:custom_model_data": {
-                  "strings": [
-                    "c:{cv:{id:\"config_extra\"}}"
-                  ]
-                },
-                "item_name": {
-                  "translate": "Extra Configuration"
-                },
-                "custom_data": {
-                  "c": {
-                    "cv": {"config": true,"hard_config": true}
-                  }
-                },
-                "minecraft:profile": {
-                  "properties": [
-                    {
-                      "name": "textures",
-                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjVhZTc3MjQ3NzFmYzUwZTZmOWM1ZGM1OGUwZDkxNmYwMTRlZDhhMjlhZGU4ZjcyM2I3MGNjNTAxZWU3MjRjMSJ9fX0="
-                    }
-                  ]
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                            "minecraft:item_model": "c.cv:item/config_extra",
+                                "minecraft:rarity": "common",
+                                "item_name": {
+                                    "translate": "Extra Configuration"
+                                },
+                                "custom_data": {
+                                    "c": {
+                                        "cv": { "config": true, "hard_config": true }
+                                    }
+                                },
+                                "minecraft:profile": {
+                                    "properties": [
+                                        {
+                                            "name": "textures",
+                                            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjVhZTc3MjQ3NzFmYzUwZTZmOWM1ZGM1OGUwZDkxNmYwMTRlZDhhMjlhZGU4ZjcyM2I3MGNjNTAxZWU3MjRjMSJ9fX0="
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
                 }
-              }
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

@@ -10,11 +10,7 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": {
-                  "strings": [
-                    "c:{cv:{id:\"button_middle\"}}"
-                  ]
-                },
+                "minecraft:item_model": "c.cv:gui/big_green_button_middle",
                 "minecraft:item_name": "Next Page",
                 "custom_data": "{c:{cv:{\"hard_config\":1b,\"config\":1b,\"button\":\"right\"}}}"
               }

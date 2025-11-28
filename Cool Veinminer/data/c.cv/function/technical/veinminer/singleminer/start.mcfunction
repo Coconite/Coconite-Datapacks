@@ -5,6 +5,7 @@ execute if data storage c:cv root.config{sneak_needed:1b} unless predicate c.cv:
 
 # Multiminer set id to 0
 data modify storage c:cv root.temp.multiminer.id set value 0
+scoreboard players set #veinminer.mined_blocks c.cv.dummy 0
 
 # Singleminer
 execute at @n[type=item,nbt={Age:0s}] align xyz positioned ~.5 ~.5 ~.5 run function c.cv:technical/veinminer/singleminer/at_item

@@ -1,7 +1,7 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "c.cv:gui/big_green_button_bottom"
+    "model": "c.cv:gui/button_op_pressed"
   },
   "oversized_in_gui": true
 }

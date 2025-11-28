@@ -4,6 +4,8 @@ scoreboard players set #veinminer.blockss.iteration c.cv.dummy 0
 execute store result score #veinminer.blockss.max_iterations c.cv.dummy run data get storage c:cv root.config.blocks
 scoreboard players remove #veinminer.blockss.max_iterations c.cv.dummy 1
 
+scoreboard players set #veinminer.iteration.destroyed_blocks c.cv.dummy 0
+
 data modify storage c:cv root.temp.iteration_blocks set value 0
 scoreboard players set #veinminer.sub_iteration c.cv.dummy 0
 

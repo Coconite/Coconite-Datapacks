@@ -1,34 +1,30 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "item",
-          "name": "minecraft:gray_stained_glass_pane",
-          "functions": [
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": {
-                  "strings": [
-                    "c:{cv:{id:\"size\"}}"
-                  ]
-                },
-                "minecraft:item_name": "Maxium Size of vein",
-                "minecraft:lore":[
-                  {
-                    "text": "",
-                    "color": "green",
-                    "italic": false
-                  }
-                ],
-                "custom_data": "{c:{cv:{\"hard_config\":1b,\"config\":1b,\"button\":\"size\"}}}"
-              }
-            }
-          ]
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:gray_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:item_model": "c.cv:gui/button_size",
+                                "minecraft:item_name": "Maxium Size of vein",
+                                "minecraft:lore": [
+                                    {
+                                        "text": "",
+                                        "color": "green",
+                                        "italic": false
+                                    }
+                                ],
+                                "custom_data": "{c:{cv:{\"hard_config\":1b,\"config\":1b,\"button\":\"size\"}}}"
+                            }
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

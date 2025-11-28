@@ -10,11 +10,7 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": {
-                  "strings": [
-                    "c:{cv:{id:\"background\"}}"
-                  ]
-                },
+                "minecraft:item_model": "c.cv:gui/background",
                 "minecraft:max_stack_size": 1,
                 "minecraft:item_name": "",
                 "minecraft:tooltip_display":{

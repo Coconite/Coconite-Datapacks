@@ -10,6 +10,7 @@
             {
               "function": "set_components",
               "components": {
+                  "minecraft:item_model": "c.cv:gui/button_op",
                 "minecraft:custom_model_data": {
                   "strings": [
                     "c:{cv:{id:\"op\"}}"

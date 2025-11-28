@@ -10,11 +10,7 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": {
-                  "strings": [
-                    "c:{cv:{id:\"button\"}}"
-                  ]
-                },
+                  "minecraft:item_model": "c.cv:gui/small_red_button",
                 "minecraft:item_name": "Back",
                 "custom_data": "{c:{cv:{\"hard_config\":1b,\"config\":1b,\"button\":\"left\"}}}"
               }
