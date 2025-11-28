@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "warned": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"c.warning.warned\"]}",
+          "periodic_tick": 100
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "c.warning:entity/player/warning/remove_tag"
+  }
+}

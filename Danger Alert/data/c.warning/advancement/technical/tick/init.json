@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "warned": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "c.warning:entity/player/start"
+  }
+}

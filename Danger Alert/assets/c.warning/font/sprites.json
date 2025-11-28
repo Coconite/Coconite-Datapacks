@@ -1,0 +1,13 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "c.warning:gui/sprites/logo.png",
+      "height": 16,
+      "ascent": 12,
+      "chars": [
+        "!"
+      ]
+    }
+  ]
+}

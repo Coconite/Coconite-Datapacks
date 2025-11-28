@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "pack_format": 88,
+    "description": [
+      {
+        "text": "⚠ Danger Alert ⚠",
+        "color": "#ff0d31"
+      },
+      "\n",
+      {
+        "text": "By Dewonic & Cococnite",
+        "color": "#fe0159"
+      }
+    ],
+    "min_format": 88,
+    "max_format": 88
+  }
+}

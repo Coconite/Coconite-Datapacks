@@ -1,0 +1,7 @@
+{
+	"values": [
+		"c.warning:technical/load",
+		"c.warning:technical/10_tick/main",
+		"globalid:load"
+	]
+}
