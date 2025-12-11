@@ -1,5 +1,5 @@
 {
   "values": [
-    "sa:entity/player/tick"
+    "c.lb:entity/player/tick"
   ]
 }

@@ -1,0 +1,1 @@
+summon villager ~ ~ ~ {Passengers:[{id:"minecraft:silverfish",Silent:1b},{id:"minecraft:tnt"}],attributes:[{id:"minecraft:movement_speed",base:1}]}

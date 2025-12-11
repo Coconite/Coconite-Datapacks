@@ -1,0 +1,4 @@
+data modify storage c:lucky_blocks root.config.version set value "1.1"
+execute as @r at @s run function c.lb:entity/player/check_hardcore
+
+data modify storage c:lucky_blocks root.config.lucky_blocks set value {needs_op:0b,traps:[{id:"lava",name:"Lava",disabled:0b},{id:"water_trap",name:"Water Trap",disabled:0b},{id:"pit_of_desires",name:"Pit of Desires",disabled:0b},{id:"anvil",name:"Anvil Trap",disabled:0b},{id:"tnt_circle","name":"Tnt Circle",disabled:0b},{id:"zombie_tower",name:"Zombie Tower",disabled:0b},{id:"suicide_villager",name:"Suicide Villager",disabled:0b},{id:"lava_pit",name:"Lava Pit",disabled:0b},{id:"screams",name:"Screams",disabled:0b},{id:"explosive_cake",name:"Explosive Cake",disabled:0b},{id:"half_heart",name:"Dog Circle",disabled:0b}],traps_array:["lava","water_trap","anvil","explosive_cake","half_heart","lava_pit","pit_of_desires","screams","suicide_villager","tnt_circle","water_trap","zombie_tower"]}

@@ -1,4 +1,4 @@
-attribute @p minecraft:max_health modifier add c.lb:half_heart -19 add_value
+execute unless data storage c:lucky_blocks root.config{hardcore:1} run attribute @p minecraft:max_health modifier add c.lb:half_heart -19 add_value
 
 scoreboard players set #c.lb.effect_iteration c.lb.dummy 0
 function c.lb:block/lucky_block/effects/trap/wolf_circle
