@@ -1,0 +1,6 @@
+{
+	"parent": "c.gliders:item/glider_base",
+	"textures": {
+		"2": "c.gliders:item/green_glider"
+	}
+}

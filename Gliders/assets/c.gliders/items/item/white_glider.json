@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "c.gliders:item/white_glider"
+  }
+}

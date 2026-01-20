@@ -1,0 +1,35 @@
+{
+    "criteria": {
+        ".": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:white_wool",
+                            "minecraft:black_wool",
+                            "minecraft:red_wool",
+                            "minecraft:orange_wool",
+                            "minecraft:yellow_wool",
+                            "minecraft:lime_wool",
+                            "minecraft:light_blue_wool",
+                            "minecraft:pink_wool"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "c.gliders:white_glider",
+            "c.gliders:black_glider",
+            "c.gliders:red_glider",
+            "c.gliders:orange_glider",
+            "c.gliders:yellow_glider",
+            "c.gliders:green_glider",
+            "c.gliders:blue_glider",
+            "c.gliders:pink_glider"
+        ]
+    }
+}

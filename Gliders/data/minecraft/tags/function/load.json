@@ -1,0 +1,7 @@
+{
+	"values": [
+		"foo:technical/load",
+		"foo:technical/clock_second/main",
+		"globalid:load"
+	]
+}

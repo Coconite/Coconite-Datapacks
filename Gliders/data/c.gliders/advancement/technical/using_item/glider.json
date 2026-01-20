@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    ".": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "predicates": {
+                "custom_data": {
+                  "coconite": {
+                    "id": "glider"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "item": {
+          "predicates": {
+            "custom_data": {
+              "coconite": {
+                "id": "glider"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "c.gliders:item/glider/use"
+  }
+}
