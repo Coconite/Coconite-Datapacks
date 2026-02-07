@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "pack_format": 69,
+    "description": [
+      {
+        "text": "☕ Coffee ☕",
+        "color": "#F5D493"
+      },
+      "\n",
+      {
+        "text": "By Coconite",
+        "color": "#DE9264"
+      }
+    ],
+    "min_format": 69,
+    "max_format": 100
+  }
+}
